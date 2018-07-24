@@ -31,7 +31,6 @@ end
 
 def hit?(sum_of_cards)
   prompt_user
-  get_user_input
   if get_user_input === "h"
     return sum_of_cards + deal_card
   end
