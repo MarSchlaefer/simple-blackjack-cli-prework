@@ -34,6 +34,7 @@ def hit?(sum_of_cards)
   if get_user_input === "h"
     return sum_of_cards + deal_card
   end
+  sum_of_cards
 end
 
 def invalid_command
