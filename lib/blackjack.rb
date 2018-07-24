@@ -49,7 +49,7 @@ def runner
   # code runner here
   welcome
   initial_round
-  while sum_of_cards < 21
+  while card_total < 21
     card_total = hit?(sum_of_cards)
     card_total = display_card_total(sum_of_cards)
   end
