@@ -49,6 +49,6 @@ def runner
   # code runner here
   welcome
   initial_round
-  
+  while sum_of_cards < 21
 end
     
