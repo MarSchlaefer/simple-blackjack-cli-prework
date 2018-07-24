@@ -50,6 +50,6 @@ def runner
   welcome
   initial_round
   while sum_of_cards < 21
-    card_total = hit?
+    card_total = hit?(card)
 end
     
